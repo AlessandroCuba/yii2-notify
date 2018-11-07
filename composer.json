@@ -1,22 +1,21 @@
 {
-    "name": "magp/yii2-notify",
-    "description": "Generate the Notification Flash",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension", "Notification", "Alert Flash"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Manuel A. Gonzalez Prieto",
-            "email": "manuel_alejandrogp@web.de"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "magp/yii2-notify": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "magp\\notify\\": ""
-        }
+  "name": "magp/yii2-notify",
+  "description": "Generate the Alert Message",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension"," notification"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Manuel A. Gonzalez Prieto",
+      "email": "manuel_alejandrogp@web.de"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "magp\\notify\\": ""
+    }
+  }
 }
