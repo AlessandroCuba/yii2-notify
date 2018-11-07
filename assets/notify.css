@@ -1,0 +1,45 @@
+.alert {
+    border-radius: 0;
+}
+
+.alert-default {
+    color: rgb(113, 125, 126);
+    background-color: rgb(248, 249, 249);
+    border-color: rgb(149, 165, 166);
+}
+
+.content-box {
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+}
+
+.content-box > .icon-box {
+    width: 33px;
+    float: left;
+    height: 100%;
+    text-align: center;
+    font-size: 4.5rem !important;
+}
+
+.content-box > .icon-box > span.glyphicon{
+    position: relative;
+    top: calc(50% - 9px)!important; /* 50% - 3/4 of icon height */
+}
+
+.content-box > .message-box{
+    line-height: 19px;
+    padding-left: 60px;
+}
+
+.content-box > .message-box h4{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.progress {
+    height: 4px;
+    border-radius: 0;
+    #background: #DDD;
+    margin-bottom: 20px;
+}
